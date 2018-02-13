@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<!--TWO META TAGS TO INCLUDE IN ALL RESPONSIVE HTML EMAILS-->
+		<!--FIRST IS FOR GENERAL RESPONSIVE-->
+		<!--SECOND IS FOR YAHOO MAIL-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta charset="utf-8">
+			<style type ="text/css">
+				body {
+				padding: 0;
+				margin: 0;
+				font-family: sans-serif;
+				}
+
+				@media screen and (max-width: 600px) {
+
+					table[class="responsive-table"] {
+					width: 100% !important;
+					padding: 10px 5%;
+					}
+
+					table[class="responsive-table2"] {
+					width: 100% !important;
+					}
+
+					img[class="responsive-image"] {
+					max-width: 100% !important;
+					height: auto !important;
+					}
+					
+					td[class="headline"] {
+					font-size: 36px !important;
+					background: #222222;
+					color: #FFFFFF;
+					padding-bottom: 20px;
+					}
+
+				}
+			</style>
+	</head>
+
+
+	<body>
+
+	<!-- FULL WIDTH CONTAINER-->
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+			<td align="center">
+
+
+				<!-- 600px CONTAINER -->
+				<table width="600" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
+					<tr>
+						<td>
+
+							<img src="stock.jpg" width="600" height="300" class="responsive-image" />
+
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="font-size: 48px; padding-top: 20px;" class="headline">
+							I &hearts; Stock Photos
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 20px 0; font-size: 20px;">
+							Lorum Ipsum
+						</td>
+					</tr>
+
+					<!-- ADD SECOND COLUMN TEST -->
+					<tr>
+						<td>
+							<table width="300" align="right" cellspacing="0" cellpadding="0" border="0" class="responsive-table2">
+								<tr>
+									<td bgcolor="#AAAAAA" style="padding: 15px;">
+										Lipsum1
+									</td>
+								</td>
+							</table>
+
+							<table width="300" align="left" cellspacing="0" cellpadding="0" border="0" class="responsive-table2">
+								<tr>
+									<td bgcolor="#DDDDDD" style="padding: 15px;">
+										Lipsum2
+									</td>
+								</td>
+							</table>
+						</td>
+					</tr>
+					<!-- END TEST -->
+				</table>
+				<!-- END 600px CONTAINER -->
+
+			</td>
+		</tr>
+	</table>
+	<!-- END FULL WIDTH CONTAINER -->
+
+
+
+	</body>
+</html>
